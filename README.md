@@ -4,6 +4,9 @@ Minecraft 1.7.10 : 3D model block MOD
 ## Download
 https://github.com/am-rex/ObjBlock/releases
 
+## Screenshot
+![](https://github.com/am-rex/ObjBlock/blob/screenshot/eclipse/screenshots/2017-07-30_03.29.55.png)
+
 ## コンテンツパック概要  
 コンテンツパックは各ユーザが独自のブロックを追加するためのパックで  
 3Dモデル、画像、ブロック設定ファイルを集めたものである。  
