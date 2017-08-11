@@ -56,20 +56,20 @@ assets/objblock/blocks/???.json
 
 ### 詳細
 
-	"Hardness": 1.0,	ブロックの硬さ 0.0 ～。参考として石が1.5  
-	"LightLevel" : 1.0,	光源の強さ 0.0 ～ 1.0  
-	"Material" : "iron",	ブロックの性質  
+	"Hardness": 1.0,	ブロックの硬さ 0.0 ～。参考として石が1.5。  
+	"LightLevel" : 1.0,	光源の強さ 0.0 ～ 1.0。  
+	"Material" : "iron",	ブロックの性質。  
 	  "Material"で使用可能な値 :  
 	    "air" "grass" "ground" "wood" "rock" "iron" "anvil" "water" "lava" "leaves" "web" "cake"  
 	    "plants" "vine" "sponge" "cloth" "fire" "sand" "circuits" "carpet" "glass" "redstoneLight"  
 	    "tnt" "coral" "ice" "packedIce" "snow" "craftedSnow" "cactus" "clay" "gourd" "dragonEgg" "portal"  
 	"Unbreakable" : false,	ブロックが破壊可能かどうか trueにすると岩盤のように破壊できなくなる。
 	"CollidedDamage" : 4,  　ブロックに触れた時のダメージ。0未満にすると回復する。  
-	"ColorARGB" : "808000FF",  　ブロックの色 16進数で 透明度,赤,緑,青  
-	ブロックの色 ColorARGBと同様だが、16進数ではなく 0.0 ～ 1.0 で表現できる  
+	"ColorARGB" : "808000FF",  　ブロックの色 16進数で 透明度,赤,緑,青。  
+	ブロックの色 ColorARGBと同様だが、16進数ではなく 0.0 ～ 1.0 で表現できる。  
 	"ColorAlpha" : 1.0,  
 	"ColorRed"   : 1.0,  
 	"ColorGreen" : 1.0,  
 	"ColorBlue"  : 1.0,  
-	"Ladder" : true,  　trueにすると梯子として登れるようにする  
-
+	"Ladder" : true,  　trueにすると梯子として登れるようにする。  
+	"RenderDist" : 128	描画距離をブロック単位で指定する（デフォルトは64ブロック）。  
