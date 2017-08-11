@@ -31,6 +31,7 @@ public class OB_Block extends BlockContainer implements ITileEntityProvider
 	public float colorBlue = 1;
 	public float collidedDamage = 0;
 	public boolean ladder;
+	public float renderDist = 64;
 
 	public OB_Block(Material mat)
 	{
@@ -52,10 +53,10 @@ public class OB_Block extends BlockContainer implements ITileEntityProvider
 			}
 			else
 			{
-				int yaw = world.getBlockMetadata( x, y, z );
+			//	int yaw = world.getBlockMetadata( x, y, z );
 
-				world.setBlock( x, y, z, this, yaw, 2 );
-				world.setBlockMetadataWithNotify( x, y, z, yaw, 2 );
+			//	world.setBlock( x, y, z, this, yaw, 2 );
+			//	world.setBlockMetadataWithNotify( x, y, z, yaw, 2 );
 			}
 		}
 		return true;

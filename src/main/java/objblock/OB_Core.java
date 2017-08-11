@@ -249,6 +249,7 @@ public class OB_Core
 		block.ladder				= OB_JsonUtils.getBoolean( jsonobject, "Ladder", false );
 
 		block.collidedDamage		= OB_JsonUtils.getFloat(  jsonobject, "CollidedDamage", 0 );
+		block.renderDist			= OB_JsonUtils.getFloat(  jsonobject, "RenderDist", 64 );
 
 		proxy.addModel( block, name );
 

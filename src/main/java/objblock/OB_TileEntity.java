@@ -36,7 +36,7 @@ public class OB_TileEntity extends TileEntity
 		AxisAlignedBB bb = super.getRenderBoundingBox();
 		OB_Block type = (OB_Block) getBlockType();
 
-		if(type.model instanceof MQO_MetasequoiaObject)
+		if( type.model instanceof MQO_MetasequoiaObject )
 		{
 			MQO_MetasequoiaObject mo = (MQO_MetasequoiaObject) type.model;
 			double size = Math.max( Math.abs( mo.max ), Math.abs( mo.min ) );
@@ -44,5 +44,12 @@ public class OB_TileEntity extends TileEntity
 		}
 
 		return bb;
+	}
+
+	@SideOnly(Side.CLIENT)
+	public double getMaxRenderDistanceSquared()
+	{
+		OB_Block type = (OB_Block) getBlockType();
+		return type.renderDist * type.renderDist;
 	}
 }
